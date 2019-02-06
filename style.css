@@ -1,0 +1,199 @@
+body{
+
+background: url(51294602_622047571566693_700770935644356608_n.jpg) no-repeat ;
+background-size:cover; 
+background-attachment:scroll;
+}
+
+.main{
+     
+	max-height:1900px;
+	height:500px;
+	max-width:900px;
+	padding:15px;
+   margin:15px auto;
+
+      transform: translate(-50px,90px);
+	background-color:#1111;
+	box-shadow:15px 15px #4577;
+}
+
+.content{
+
+   padding:15px;
+   margin:15px auto;
+   width:850px;
+   height:120px;
+   background-color:#9999;
+
+}
+
+ ul{
+ 	list-style:none;
+ }
+
+ ul li{
+       
+ 	color:white;
+ 	margin:50px;
+ 	margin-top:12px;
+ 	padding:15px
+
+ 	font-size:20px;
+ 	
+ }
+
+ a{
+
+ 	text-decoration: none;
+ 	display:inline-block;
+ 	text-align:center;
+ 	margin:auto;
+ }
+
+ p{
+ max-width:500px;
+ font-size:25px;
+ margin:10px auto;
+ margin-top:10px;
+ /*box-shadow:5px 5px #4888;*/
+ }
+ h1{
+ 	text-align:center;
+ 	color:#fff;
+ 	font-family: helevtica;
+ }
+
+ button{
+ 	width:150px;
+ 	height:35px;
+ 	padding:8px;
+ 	margin:10px auto;
+ 	border-radius:25px;
+ 	display:block;
+ 	margin-top:20px;
+ }
+
+
+a:hover{
+
+ 	background:#8888;
+ }
+
+ a:active{
+ 	background:darkorange;
+ }
+
+ footer{
+ 	text-align: center;
+
+ 	margin-right:30px;
+
+ 	font-size:20px;
+
+ }
+/* contact form*/
+
+#register{
+	width:350px;
+	height:350px;
+   background:#111111;
+     box-shadow: 5px 5px darkgrey;
+	padding:10px;
+	margin:150px auto;
+      transition: all 1s ease-in-out;
+     border-radius:25px;
+	color:#fff;
+}
+
+.username{
+	color:#fff;
+	width:300px;
+	height:35px;
+	border-radius:15px;
+	border:0;
+   background:#888;
+	margin-left:6.5%;
+	text-align:center;
+	margin-top:8px;
+
+}
+
+.password{
+		color:#fff;
+	width:300px;
+	height:35px;
+	border-radius:15px;
+	border:0;
+     background:#888;
+   margin-top:15px;
+   text-align:center;
+   margin-left:6.5%;
+
+
+
+}
+
+.email{
+
+     text-align:center;
+	width:300px;
+	height:35px;
+	border-radius:15px;
+	border:0;
+   background:#888;
+   margin-top:15px;
+   margin-left:6.5%;
+
+        
+}
+
+input.email[placeholder="email"]{
+	  color:#fff;
+}
+.confirm{
+	margin:auto;
+	margin-top:25px;
+	float:center;
+	border:0;
+	transition: all 1s ease-in-out;
+
+
+
+
+}
+
+
+
+p.click{
+	text-align:center;
+	background:darkorange;
+	padding:5px;
+	margin:5px;
+}
+
+#register:hover{
+	transform:matrix(-1,0,0,1,0,0);
+}
+.confirm:hover{
+	background:orange;
+	color:#888;
+	font-weight:bold;
+}
+
+.psforget,.acforget{
+ 
+	color:orange;
+}
+
+.acforget{
+	font-size:17px;
+	margin-top:8px;
+	display:block;
+}
+
+.psforget{
+	margin-top:8px;
+	display:block;
+		font-size:17px;
+}
