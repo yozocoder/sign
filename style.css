@@ -3,6 +3,8 @@ body{
 background: url(51294602_622047571566693_700770935644356608_n.jpg) no-repeat ;
 background-size:cover; 
 background-attachment:scroll;
+padding:0;
+margin:0;
 }
 
 .main{
@@ -96,13 +98,13 @@ a:hover{
 
 #register{
 	width:350px;
-	height:350px;
+	height:450px;
    background:#111111;
-     box-shadow: 5px 5px darkgrey;
+     box-shadow: 5px 5px  5px orange;
 	padding:10px;
-	margin:150px auto;
+	margin:110px auto;
       transition: all 1s ease-in-out;
-     border-radius:25px;
+     border-radius:30px;
 	color:#fff;
 }
 
@@ -119,7 +121,7 @@ a:hover{
 
 }
 
-.password{
+.passwordOne{
 		color:#fff;
 	width:300px;
 	height:35px;
@@ -163,7 +165,17 @@ input.email[placeholder="email"]{
 
 }
 
+.detele{
+	margin:auto;
+	margin-top:25px;
+	float:center;
+	border:0;
+	transition: all 1s ease-in-out;
 
+
+
+
+}
 
 p.click{
 	text-align:center;
@@ -172,12 +184,10 @@ p.click{
 	margin:5px;
 }
 
-#register:hover{
-	transform:matrix(-1,0,0,1,0,0);
-}
+
 .confirm:hover{
 	background:orange;
-	color:#888;
+	color:black;
 	font-weight:bold;
 }
 
@@ -196,4 +206,22 @@ p.click{
 	margin-top:8px;
 	display:block;
 		font-size:17px;
+}
+.detele:hover{
+	background:orange;
+	color:black;
+	font-weight:bold;
+}
+
+
+
+
+h3{
+	padding:10px;
+	margin: 10px auto;
+	background:darkorange;
+	text-align:center;
+	font-style:italic;
+	color:#fff;
+
 }
